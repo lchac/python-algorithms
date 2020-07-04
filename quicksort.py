@@ -1,3 +1,7 @@
+import variables
+
+ua = variables.ua
+
 def partition(a, left, right, pivot):
     while left <= right:
         while a[left] < a[pivot]:
@@ -29,8 +33,7 @@ def quicksort(a, left, right):
 
 print("* * * QUICKSORT ALGORITHM IMPLEMENTATION * * *")
 
-# Unsorted Array
-ua = [1, 7, 34, 9, 18, 11, 2, 89, 4]
+
 print("UNSORTED: ", ua)
 quicksort(ua, 0, len(ua) - 1)
 print("SORTED: ", ua)
