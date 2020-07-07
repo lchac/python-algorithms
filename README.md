@@ -1,3 +1,3 @@
-# Some Algorithms
+# Sorting Algorithms
 
-Implementing some algorithms in Python... Just for fun! :D
+Implementing some sorting algorithms in Python... Just for fun! :D
